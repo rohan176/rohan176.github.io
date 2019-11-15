@@ -1,0 +1,52 @@
+body {background-color: powderblue;}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+h1{
+  text-align: center
+}
+
+p{
+  text-align: center;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+.clicked {
+  background: GRAY;
+}
+
+.used{
+  background: GRAY;
+}
+
+.notClicked{
+  background: powderblue;
+
+}
+
+[class|="notVisible"] {
+  color: powderblue;
+  font-style: bold;
+  font-size: 20px;
+}
+
+[class|="visible"] {
+  color: red;
+  font-style: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+[class|="rules"] {
+  font-size: 10px;
+}
+
+.rules{
+  font-size: 10px;
+}
